@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: rgb(221, 239, 254);
+}
+
+#websiteHolder {
+    max-width: 60%;
+    background-color: rgb(201, 226, 247);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+#TitleText {
+    text-align: center;
+    color: rgb(50, 54, 47);
+    background-color: rgb(115, 171, 184);
+    border-radius: 8px;
+    margin: 10px;
+}
+
+#listContainer {
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.listone {
+    background-color: rgb(143, 227, 211);
+    border-radius: 12px;
+    margin: 5px;
+    padding: 15px;
+}
+
+#smallerTitle {
+    background-color: rgb(140, 205, 193);
+    max-width: 70%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+nav ul {
+    background-color: rgb(89, 193, 206);
+    overflow: hidden;
+    list-style-type: none;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+    nav ul a {
+        float: right;
+        display: block;
+        color: rgb(82, 98, 100);
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+nav a:hover {
+    background-color: rgb(71, 175, 188);
+}
+
+#active {
+    background-color: rgb(155, 240, 252);
+}
+
+p {
+    background-color: rgb(157, 197, 203);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#ImageOne {
+    max-width: 80%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+#formArea {
+    background-color: rgb(195, 220, 224);
+    padding:10px;
+    border-radius: 10px;
+}
+
+#formTitle {
+    max-width: 80%;
+    background-color: rgb(156, 183, 205);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right:28px;
+    display: block;
+    font-size: 20px;
+}
+
+#Copyright {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+    text-align: center;
+
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lanf="en-gb">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name ="description" content="Protection of local ecosystems">
+        <script src="script.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="websiteHolder">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="Restoration.html">Restoration</a> </li>
+                        <li><a href="Protection.html">Protection</a> </li>
+                        <li><a href="Quiz.html" id="active">Quiz</a> </li>
+
+                    </ul>
+                </nav>
+            </header>
+            <h1 id="TitleText">Your Impact On Your Local Ecosystems</h1>
+            <br>
+            <div id="formArea">
+                <h2 id="formTitle">To Test Your Positive Impact, Fill Out This Short Quiz</h2>
+                <form name="quiz">
+                    <fieldset>
+                        <legend>How Often do you pick up litter</legend>
+
+                        <input id="one" type="radio" name="Litter" value="0">
+                        <label for="one">Never</label>
+                        
+                        <input id="two" type="radio" name="Litter" value="1">
+                        <label for="two">Whenever I See It</label>
+                        
+                        <input id="three" type="radio" name="Litter" value="3">
+                        <label for="three">I Actively Look For Litter</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>How Long Showers Do You Take?</legend>
+
+                        <input id="one1" type="radio" name="Shower" value="3">
+                        <label for="one1">Less Than 5 Minutes</label>
+                        
+                        <input id="two1" type="radio" name="Shower" value="1">
+                        <label for="two1">Less Than 10 Minutes</label>
+                        
+                        <input id="three1" type="radio" name="Shower" value="0">
+                        <label for="three1">10+ Minutes</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>How Often Do You Buy Local Produce?</legend>
+
+                        <input id="one2" type="radio" name="Produce" value="3">
+                        <label for="one2">All The Time</label>
+                        
+                        <input id="two2" type="radio" name="Produce" value="1">
+                        <label for="two2">Sometimes</label>
+                        
+                        <input id="three2" type="radio" name="Produce" value="0">
+                        <label for="three2">Never</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>How Often Do You Eat Meat?</legend>
+
+                        <input id="one3" type="radio" name="Meat" value="3">
+                        <label for="one3">Less Than Daily</label>
+                        
+                        <input id="two3" type="radio" name="Meat" value="2">
+                        <label for="two3">Daily</label>
+                        
+                        <input id="three3" type="radio" name="Meat" value="0">
+                        <label for="three3">More Than Once A Day</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>How Do You Travel The Most?</legend>
+
+                        <input id="one4" type="radio" name="Travel" value="0">
+                        <label for="one4">Car</label>
+                        
+                        <input id="two4" type="radio" name="Travel" value="3">
+                        <label for="two4">Cycling</label>
+                        
+                        <input id="three4" type="radio" name="Travel" value="3">
+                        <label for="three4">Walking</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>How Often Do You Recycle?</legend>
+
+                        <input id="one5" type="radio" name="Recycle" value="0">
+                        <label for="one5">Never</label>
+                        
+                        <input id="two5" type="radio" name="Recycle" value="2">
+                        <label for="two5">Sometimes</label>
+                        
+                        <input id="three5" type="radio" name="Recycle" value="3">
+                        <label for="three5">All The Time</label>
+                    </fieldset>
+
+                    <br>
+
+                    <input id="submit" type="button" value="submit" onclick="CheckAnswers()">
+
+                    <br>
+
+
+                </form>
+                </div>
+        </div>
+    </body>
+</html>
