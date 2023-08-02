@@ -1,4 +1,4 @@
-let array = ["test","test1","test2","test3","test4","test5","test6","test7","test8","test9"]
+let array = ["Coral reefs are busy underwater ecosystems. Some people call them the rainforests of the sea. The corals look like rocks but actually are animals. They have hard calcium carbonate skeletons like clams. They form a base for lots of other organisms to live. You'll find crabs, sea stars, worms, clams, sponges, jellies, sea turtles, and lots of fish. Coral reefs are complicated and very fragile. They are easily affected by pollution.","In the world's many deserts, there is very little rain. The land is very, very dry. Here, living things have creative ways of finding and saving water. Cactuses are very good at storing water. They can live without rain for months. The kangaroo mouse lives in the Nevada desert. It never needs to drink water. It can get all its water from the seeds it eats.","Every continent except Antarctica has grasslands. These are areas with medium rainfall. You'll find many different types of tall grasses, herbs, and flowers all mixed together. From the savannahs of Africa to the prairies of Kansas, grasslands are home to lots of different species that live in the soil, feed on the grass, or eat the animals that eat the grass. In the United States, that could be buffalos and cows. In Africa, it's gazelles, lions, and elephants.","Ponds, lakes, streams, and rivers are home to lots of different species that can't live in salty ocean water. There are freshwater ecosystems all over the world. They are home to some amazing creatures. There are many kinds of frogs, fish, insects, and microscopic organisms like amoebas. And there are rare species like river dolphins in Asia and South America, otters in North America, beavers in North America and Europe, and platypuses in Australia.","In the tundra, it feels like winter all the time. Tundra occurs near the north and south poles of our planet. We call them the Arctic and Antarctic tundra. There is also tundra at the top of the world's tallest mountains. It's a hard place to live. There are short but hardy shrubs, mosses, and lichens. In the Arctic tundra, there are polar bears, foxes, and reindeer. In the Antarctic tundra, there are seals and penguins resting on the shores between swims in the ocean."]
 
 function CheckAnswers(){
     Quiz = document.forms.quiz.elements;
@@ -7,5 +7,5 @@ function CheckAnswers(){
 }
 
 function RandomFact() {
-    alert(array[Math.floor(Math.random() * 10)]);
+    alert(array[Math.floor(Math.random() * 5)]);
 }
